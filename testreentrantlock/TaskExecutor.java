@@ -25,7 +25,6 @@ public class TaskExecutor implements Runnable {
 			System.out.println(task.getName());
 			Thread.sleep(2000L);
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		LOCK.unlock();
